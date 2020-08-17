@@ -54,19 +54,19 @@ function Search(){
     var val= document.getElementById("data").value;
     switch (val.toLowerCase()) {
         case 'all':
-            Allfn();
+            All();
             break;
         case 'cake':
-            Cakefn();
+            Cake();
             break;
         case 'cupcake':
-            CupCakefn();
+            CupCake();
             break;
         case 'sweet':
-            Sweetfn();
+            Sweet();
             break;
         case 'doughnut':
-            Doughnutfn();
+            Doughnut();
             break;
         default: 
            alert("Either Item Is Not Available or Incorrect Input");
